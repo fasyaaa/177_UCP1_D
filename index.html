@@ -36,72 +36,74 @@
     </div>
   </nav>
   <main>
-    <div class="container">
+    <div class="container my-4">
       <!-- Carousel -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- Carousel item 1 -->
-          <div class="carousel-item active">
-            <img src="image/Food.jpg" class="d-block w-100" alt="...">
-          </div>
-          <!-- Carousel item 2 -->
-          <div class="carousel-item">
-            <img src="image/photography.jpg" class="d-block w-100" alt="...">
-          </div>
-          <!-- Carousel item 3 -->
-          <div class="carousel-item">
-            <img src="image/Programming.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Carousel item 1 -->
+    <div class="carousel-item active" id="Food">
+      <img src="image/Food.jpg" class="d-block w-100" alt="food" width="1000" height="800">
+    </div>
+    <!-- Carousel item 2 -->
+    <div class="carousel-item">
+      <img src="image/photography.jpg" class="d-block w-100" alt="photography" width="1000" height="800">
+    </div>
+    <!-- Carousel item 3 -->
+    <div class="carousel-item">
+      <img src="image/Programming.jpg" class="d-block w-100" alt="Programming" width="1000" height="800">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
       <!-- Cards -->
       <div class="row mt-3">
         <!-- Card 1 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="image/sunrise.jpg" alt="Image 2">
-            <h3>Sunrise Walk</h3>
-            <p>Walk during sunrise for about 1 times a week </p>
-            <!-- Card content -->
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="image/Music.jpg" alt="Image 3">
-            <h3>Listening to music</h3>
-            <p>Enjoying to music</p>
-            <!-- Card content -->
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="col-md-4">
-          <!-- Card 3 -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4" id="card-row">
+          <div class="col">
             <div class="card">
-              <img src="image/work.jpg" alt="Image 4">
-              <h3>Work</h3>
-              <p>I do my work remotely</p>  
-            <!-- Card content -->
+              <img src="image/sunrise.jpg" class="card-img-top" alt="Editing">
+              <div class="card-body">
+                <h5 class="card-title">Sunrise Walk</h5>
+                <p class="card-text">Walk during sunrise for about 1 times a week.</p>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="col">
+            <div class="card">
+              <img src="image/music.jpg" class="card-img-top" alt="Music">
+              <div class="card-body">
+                <h5 class="card-title">Listening to music</h5>
+                <p class="card-text">Enjoying to music.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="image/work.jpg" class="card-img-top" alt="Coding">
+              <div class="card-body">
+                <h5 class="card-title">Work</h5>
+                <p class="card-text">I do work with my team.</p>
+              </div>
+            </div>
+          </div>
+        </div>  
       </div>
-    </div>
-  </main>
-  <footer class="bg-dark text-light py-3">
-    <div class="container text-center">
+        
       <!-- Footer content -->
+      <footer class=" text-center p-3 mt-5">
+        <p>&copy; 2024 A Day In My Life</p>
+      </footer>
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

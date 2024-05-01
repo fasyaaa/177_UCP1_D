@@ -46,22 +46,40 @@ header {
 /* Card styles */
 .card {
   margin-bottom: 20px;
+  height: auto; /* Set height to auto to allow content to determine height */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
 }
 
+/* Ensure images inside cards are cropped */
+.card-img-top {
+  object-fit: cover;
+  height: 500px; /* Set the height of the image */
+  border-top-left-radius: 20px; /* Add border radius for rounded corners */
+  border-top-right-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+/* Style card body */
 .card-body {
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 5px;
 }
 
+/* Card title */
 .card-title {
   font-size: 1.25rem;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
+/* Card text */
 .card-text {
   font-size: 1rem;
+  color: #6c757d; /* Adjust text color */
 }
+
 
 /* Footer styles */
 footer {
