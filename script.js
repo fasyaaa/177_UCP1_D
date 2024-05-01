@@ -5,13 +5,13 @@ function updateDateTime() {
     let greeting;
   
     if (hour < 12) {
-      greeting = "Selamat pagi";
+      greeting = "Good Morning";
     } else if (hour < 18) {
-      greeting = "Selamat siang";
+      greeting = "Good Afternoon";
     } else {
-      greeting = "Selamat malam";
+      greeting = "Good Night";
     }
-  
+ 
     const dateElement = document.getElementById("date");
     const timeElement = document.getElementById("time");
     dateElement.textContent = now.toLocaleDateString("id-ID");
@@ -23,4 +23,4 @@ function updateDateTime() {
   
   // Call the function immediately to display date and time
   updateDateTime();
-  
+ 
