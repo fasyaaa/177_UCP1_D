@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .greeting {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .datetime {
+    font-size: 1rem;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f8f9fa;
+  }
+  
+  /* Carousel styles */
+  .carousel-item img {
+    max-width: 100%;
+  }
+  
+  /* Card styles */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
